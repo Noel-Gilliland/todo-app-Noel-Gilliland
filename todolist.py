@@ -61,7 +61,7 @@ class Todo:
     	if not self.tasks:
     	    print("List is already empty")
     	else
-    	    while(self.tasks):
+    	    self.test = []
     	        
 
     def show_tasks(self) -> None:
